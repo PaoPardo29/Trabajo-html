@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
+    <title>Registrate</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="container-card">
+            <form action="">
+                <h1>Register</h1>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" required>
+                <label for="numero">Numero de celular</label>
+                <input type="text" id="numero" maxlength="10" pattern="[[0-9]]" required>
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" required>
+                <label for="fecha">Fecha de nacimiento</label>
+                <div class="cumple">
+                    <input type="date" id="fecha" required>
+                </div>
+                <div class="container-genero">
+                    <label for="genero">Genero</label>
+                    <div class="fem">
+                        <input type="radio" name="genero"> Femenino
+                    </div>
+                    <div class="mas">
+                        <input type="radio" name="genero"> Masculino
+                    </div>
+                    <div class="otr">
+                        <input type="radio" name="genero"> Otro
+                    </div>
+                </div>
+                <div class="boton">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

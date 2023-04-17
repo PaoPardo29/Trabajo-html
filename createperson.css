@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Questrial&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Questrial', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/61/de/2b/61de2ba956418acd9ab454ceca15bbb2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 30%;
+    height: 650px;
+    background-color: rgb(183, 154, 193);
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    text-align: center;
+    text-align: left;
+    justify-content: space-between;
+    box-shadow: 0px 10px 15px 0px rgba(146, 145, 145, 0.276);
+    gap: 10px;
+}
+.container-genero{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.container-usuario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-boton input{
+    background-color: rgb(150, 15, 199);
+    border: solid 1px white; 
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+.container-boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+    color: rgb(3, 3, 2);
+}
+.container form label{
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+}
