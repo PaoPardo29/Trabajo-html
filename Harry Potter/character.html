@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./character.css">
+    <title>Crea tu personaje</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Diseña tu personaje</h1>
+            <div class="container-usuario">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div class="container-usuario">
+                <label for="species">Especie</label>
+                <input type="text" id="species" required>
+            </div>
+            <div class="container-genero">
+                <label for="genero">Genero</label>
+                    <div>
+                        <input type="radio" name="genero"> Femenino
+                    </div>
+                    <div>
+                        <input type="radio" name="genero"> Masculino
+                    </div>
+                    <div>
+                        <input type="radio" name="genero"> Otro
+                    </div>
+            </div>
+            <div class="container-usuario">
+                <label for="fecha">Fecha de nacimiento</label>
+                <input type="date" id="fecha" required>
+            </div>
+            <div class="container-usuario">
+                <label for="imagen">Imagen</label>
+                <input type="url" name="url" id="url"
+                placeholder="https://example.com"
+                pattern="https://.*" size="30"
+                required>
+            </div>
+            <div class="container-usuario">
+                <label for="descrip">Descripción</label>
+                <textarea id="descrip" cols="30" placeholder="Ingresa la descripción..." rows="10"></textarea>
+            </div>
+            <div class="container-usuario">
+                <label for="rango">Indique su nivel:</label>
+                <input type="range" id="rango">
+            </div>
+            <div class="container-boton">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

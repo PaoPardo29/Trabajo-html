@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Questrial&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Questrial', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://eltallerdemaresca.com/storage/images/IMG_20200506_180505.jpg?hash=e829895d76a8bd47d03101ff62c8131efde5f7e5&shop=39551507&width=540&height=2560);
+}
+form{
+    width: 30%;
+    height: 650px;
+    background-color: beige;
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    text-align: center;
+    text-align: left;
+    justify-content: space-between;
+    box-shadow: 0px 10px 15px 0px rgba(146, 145, 145, 0.276);
+    gap: 10px;
+}
+.container-genero{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.container-usuario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-boton input{
+    background-color: rgb(153, 129, 101);
+    border: solid 1px white; 
+    color: rgb(8, 7, 7);
+    padding: 10px;
+    border-radius: 5px;
+}
+.container-boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+    color: rgb(96, 57, 20);
+}
+.container form label{
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+}
