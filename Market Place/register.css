@@ -59,13 +59,7 @@ font-family: 'Questrial', sans-serif;
 .container form input{
     width: 100%;
 }
-.fem{
-    display: flex;
-}
-.mas{
-    display: flex;
-}
-.otr{
+.fem, .mas, .otr{
     display: flex;
 }
 .cumple{
